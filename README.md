@@ -1,13 +1,13 @@
-###How to install?
+## How to install?
 ```composer require shahadatzcpe/bdlocation```
-###How to migrate?
+## How to migrate?
 ``php artisan migrate``
-###How to import data?
+## How to import data?
 ```php artisan import:bdlocation```
 
 
 
-###Available model
+## Available model
 ```php
 Shahadatzcpe\BDLocation\Models\Division
 Shahadatzcpe\BDLocation\Models\District
@@ -16,7 +16,7 @@ Shahadatzcpe\BDLocation\Models\PoliceStation
 Shahadatzcpe\BDLocation\Models\Union
 ```
 
-####Relationship
+#### Relationship
 ```php
 Division
     districts      => 1 to n District
