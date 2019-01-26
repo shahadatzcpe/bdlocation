@@ -1,0 +1,29 @@
+{
+    "name": "shahadatzcpe/bdlocation",
+    "description": "Bangladesh location",
+    "type": "library",
+    "license": "MIT",
+    "version": "1.0",
+    "authors": [
+        {
+            "name": "Md Shahadat Hossain",
+            "email": "shahadat.zcpe@gmail.com"
+        }
+    ],
+    "require": {
+        "php": "^7.1",
+        "laravel/framework": "5.7.*"
+    },
+    "autoload": {
+        "psr-4": {
+            "Shahadatzcpe\\BDLocation\\" :  "src/"
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Shahadatzcpe\\BDLocation\\BDLocationServiceProvider"
+            ]
+        }
+    }
+}
