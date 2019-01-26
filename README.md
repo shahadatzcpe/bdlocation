@@ -1,3 +1,4 @@
+Laravel package for bd location.
 ## How to install?
 ```composer require shahadatzcpe/bdlocation```
 ## How to migrate?
