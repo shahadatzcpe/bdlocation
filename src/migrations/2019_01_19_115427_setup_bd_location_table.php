@@ -58,8 +58,8 @@ class SetupBdLocationTable extends Migration
             $table->unsignedInteger('district_id');
             $table->string('name', 30);
             $table->string('bn_name', 50)->nullable();
-            $table->float('lat')->nullable();
-            $table->float('lon')->nullable();
+            $table->string('lat', 40)->nullable();
+            $table->string('lon', 40)->nullable();
             $table->string('address', 250)->nullable();
             $table->string('duty_officer_ext')->nullable();
             $table->string('dmp')->nullable();
