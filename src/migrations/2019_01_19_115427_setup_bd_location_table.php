@@ -56,7 +56,7 @@ class SetupBdLocationTable extends Migration
         Schema::create('bdlocation_police_stations', function (Blueprint $table) {
             $table->increments('id');
             $table->unsignedInteger('district_id');
-            $table->string('name', 30);
+            $table->string('name', 50);
             $table->string('bn_name', 50)->nullable();
             $table->string('lat', 40)->nullable();
             $table->string('lon', 40)->nullable();
