@@ -3,7 +3,7 @@ Laravel package for bd location.
 ```composer require shahadatzcpe/bdlocation```
 ## How to migrate?
 ``php artisan migrate``
-## How to import data?
+## How to import data using this pacakge?
 ```php artisan import:bdlocation```
 
 
